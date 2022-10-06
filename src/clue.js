@@ -157,5 +157,5 @@ function revealMystery() {
  //console.log(solvedMystery)
  return (`${solvedMystery.suspect.firstName} ${solvedMystery.suspect.lastName} killed Mr. Boddy using the ${solvedMystery.weapon.name} in the ${solvedMystery.room.name}!`);
 }
-console.log(revealMystery())
+revealMystery()
 
